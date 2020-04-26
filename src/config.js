@@ -1,36 +1,36 @@
 const dev = {
-  STRIPE_KEY: "pk_test_v1amvR35uoCNduJfkqGB8RLD",
+  STRIPE_KEY: "pk_test_6SzfiGAyZb9fSBPmMAPOsGSh00MBKKYX50",
   s3: {
-    REGION: "us-east-1",
-    BUCKET: "notes-app-2-api-dev-attachmentsbucket-qvdowkch2uj1"
+      REGION: "us-east-1",
+      BUCKET: "mduarte-notes-app-uploads"
   },
   apiGateway: {
-    REGION: "us-east-1",
-    URL: "https://api.serverless-stack.seed-demo.club/dev"
+      REGION: "us-east-1",
+      URL: "https://r15efw55be.execute-api.us-east-1.amazonaws.com/prod"
   },
   cognito: {
-    REGION: "us-east-1",
-    USER_POOL_ID: "us-east-1_f8l0OHPtp",
-    APP_CLIENT_ID: "5r5o292r1n7s2vgje5u5c7vpq0",
-    IDENTITY_POOL_ID: "us-east-1:b718098b-fe72-410b-b4c6-0750f9135672"
+      REGION: "us-east-1",
+      USER_POOL_ID: "us-east-1_heX3yg4Oc",
+      APP_CLIENT_ID: "bu60l1spfl8fvatpemh64c2mb",
+      IDENTITY_POOL_ID: "us-east-1:18a7093c-9566-43d3-bd02-a7853868f4fd"
   }
 };
 
 const prod = {
-  STRIPE_KEY: "pk_test_v1amvR35uoCNduJfkqGB8RLD",
+  STRIPE_KEY: "pk_test_6SzfiGAyZb9fSBPmMAPOsGSh00MBKKYX50",
   s3: {
-    REGION: "us-east-1",
-    BUCKET: "notes-app-2-api-prod-attachmentsbucket-1v9w7kkxnznb7"
+      REGION: "us-east-1",
+      BUCKET: "mduarte-notes-app-uploads"
   },
   apiGateway: {
-    REGION: "us-east-1",
-    URL: "https://api.serverless-stack.seed-demo.club/prod"
+      REGION: "us-east-1",
+      URL: "https://r15efw55be.execute-api.us-east-1.amazonaws.com/prod"
   },
   cognito: {
-    REGION: "us-east-1",
-    USER_POOL_ID: "us-east-1_mLbfKylhm",
-    APP_CLIENT_ID: "mli2vaupiq3ga29m4698m6mrl",
-    IDENTITY_POOL_ID: "us-east-1:4e377eff-0617-4098-b218-673490ffab8d"
+      REGION: "us-east-1",
+      USER_POOL_ID: "us-east-1_heX3yg4Oc",
+      APP_CLIENT_ID: "bu60l1spfl8fvatpemh64c2mb",
+      IDENTITY_POOL_ID: "us-east-1:18a7093c-9566-43d3-bd02-a7853868f4fd"
   }
 };
 
