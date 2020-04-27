@@ -60,7 +60,7 @@ export default function Home() {
     return (
       <div className="lander">
         <h1>SMARKIO</h1>
-        <p>Trilha técnica Serverless</p>
+        <p>Trilha técnica Serverless - EDITED</p>
         <div>
           <Link to="/login" className="btn btn-info btn-lg">
             Login
